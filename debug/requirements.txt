@@ -1,0 +1,29 @@
+# 实时语音翻译系统依赖包
+# 版本: v6 Gradio优化版
+
+# 核心依赖
+torch>=2.0.0
+transformers>=4.37.2
+gradio>=4.0.0
+
+# 音频处理
+pyaudio>=0.2.11
+webrtcvad>=2.0.10
+soundfile>=0.12.1
+pydub>=0.25.1
+numpy>=1.21.0
+
+# 语音识别
+SpeechRecognition>=3.8.1
+
+# 异步处理
+asyncio
+
+# 其他工具
+queue
+threading
+time
+datetime
+json
+os
+sys 
